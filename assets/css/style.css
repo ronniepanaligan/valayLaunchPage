@@ -1,0 +1,35 @@
+body {
+  background-color: #2095F2;
+  color: #ffffff;
+}
+
+.countdownText {
+  font-size: 35px;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 90px;
+  margin: 0 auto;
+  width: 40%;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#clock {
+  text-align: center;
+  font-size: 91px;
+  font-weight: bold;
+}
+
+@media screen and (max-width:989px) {
+  .iphone img {
+    display: none;
+  }
+  .countdownText {
+    font-size: 20px;
+  }
+  #clock {
+    font-size: 75px;
+  }
+}
