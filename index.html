@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ValetFix</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,35 +14,133 @@
     <title>Valay</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="countdown">
-            <div id="clock"></div>
+    <div id="header">
+        <div class="container">
+          <div class="row">
+            <div>
+              <h1 class="font_0">
+                <span>
+                    <span>Valet Fix</span>
+                    <span style="color: #EF3123; padding-left:4px; margin-left: -10px; font-size: 20px;">+</span>
+                </span>
+              </h1>
+              <h1 class="font_0" style="line-height: 1em; margin-top: -6px">
+                <span>
+                  Phone
+                  <span style="font-size: 13px;">
+                    Computer Repair
+                  </span>
+                </span>
+              </h1>
+              <div id="mobile_only" style="width: 350px">
+                <div>
+                  <p>
+                      ✆ Call: (<span style="font-weight:bold;">812) 318-1343</span>
+                  </p>
+                </div>
+                <button type="button" class="btn btn-primary">Get your fix</button>
+                
+              </div>
+              <p class="slogan font_0" style="margin-top: -14px">
+                <span style="font-size: 12px;color: #FFF2D1;">Because you want the Best, Quickest Service</span>
+              </p>
+              </div>
+            <div id="nav_bar">
+              <nav>
+                <a class="links" href="#">Repairs</a>
+                <a class="links" href="#">Locations</a>
+                <a class="links" href="#">Benefits</a>
+                <a class="links" href="#">Reviews</a>
+                <a class="links" href="#">Process</a>
+                <a class="links" href="#">App</a>
+                <a class="links" href="#">Contact us</a>
+                <button type="button" class="btn btn-primary">Get your fix</button>
+              </nav>
+              <p id="announcement">We are currently closed around college campuses for the summer. 
+                </p>
+            </div>
+            <div id="call_at">
+              <p>
+                  ✆ Call: (<span style="font-weight:bold;">812) 318-1343</span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+    </div>
+    <div class="container" id="main_container">
       <div class="row">
-        <div class="col-lg-4 col-md-12">
+        <div class="col-lg-4 col-md-12 first">
           <div class="iphone float-right">
             <img src="assets/images/iphone_demo.png" alt="" />
           </div>
         </div>
         <div class="col-lg-8 col-md-12 col-sm-12">
-          <div style="font-size:25px; text-align:center; font-weight:bold;">WAIT FOR YOUR SOULMATE, NOT YOUR REPAIR</div>
+          <div class="countdown second">
+            <div id="clock"></div>
+          </div>
+          <div style="font-size:25px; text-align:center; font-weight:bold;">SOMETHING AMAZING IS COMING SOON!</div>
+          <img id="imgOnMobile" src="assets/images/iphone_demo.png" alt=""/>
           <div class="contact">
             <p>GET IN NOW</p>
             <form class="form-inline" method="post" id="contactForm" action="./php/register.php">
               <div class="form-group">
                 <input name="email" type="email" class="form-control" id="email" placeholder="Your email address">
-                <button class="btn"type="submit" name="submit" id="submit" class="button" value="Submit"/>Signup</button>
+                <button class="btn"type="submit" name="submit" id="submit" class="button" value="Submit"/>Sign up</button>
               </div>
             </form>
           </div>
-          <div style="font-size: 36px;padding-top: 90px;text-align: center; font-weight:bold;">SOMETHING AMAZING IS COMING SOON!</div>
+          <div id="btm_text">WAIT FOR YOUR SOULMATE, NOT YOUR REPAIR</div>
         </div>
       </div>
     </div>
+    <footer id="footer">
+        <div id="footer1">
+          <div id="reg_footer">
+            <div id="foot_brand">
+              Valet Fix+
+            </div>
+            <div id="foot_call">
+              <p>
+                ✆ Call: (<span>812) 318-1343</span>
+              </p>
+            </div>
+            <div id="copy_right">
+                Copyright 2017. ValetFix LLC. All Rights Reserved.
+            </div>
+            <div id="go_top">
+              <img id="top_img" src="https://static.wixstatic.com/media/dbbdc91820535cbbeb0664011cb93255.png/v1/fill/w_46,h_24,al_c,lg_1/dbbdc91820535cbbeb0664011cb93255.png" alt="">
+              <p style="margin: 10px 0 0 10px">
+                TOP
+              </p>
+            </div>
+            <div id="foot_links">
+                HOME | REPAIR | TERMS | FAQ
+            </div>
+            <div id="question">
+                Questions? info@valetfix.com
+            </div>
+            <div id="payment">
+              <p>Payment Options</p>
+              <img src="https://static.wixstatic.com/media/986e85_b07c2e03e9b942f2a9e8d658f406b1da.png/v1/fill/w_436,h_46,al_c,usm_0.66_1.00_0.01/986e85_b07c2e03e9b942f2a9e8d658f406b1da.png" alt="">
+            </div>
+            <div id="statement">
+              iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc. ValetFix is an independent service company and is in no way affiliated with Apple Inc.
+            </div>
+          </div>
+          
+
+          <div id="mobile_footer" style="margin: auto">
+            <img style="margin-top: 15px;" id="top_img" src="https://static.wixstatic.com/media/dbbdc91820535cbbeb0664011cb93255.png/v1/fill/w_46,h_24,al_c,lg_1/dbbdc91820535cbbeb0664011cb93255.png" alt="">
+            <div style="font-size: 35px;">Valet Fix+</div>
+            <div style="font-size: 18px">
+              ✆ Call: (<span>812) 318-1343</span>
+            </div>
+            <div style="font-size: 18px">HOME | REPAIR | TERMS | FAQ</div>
+            <div style="font-size: 18px">Questions? info@valetfix.com</div>
+            <div style="font-size: 14px; color: #A0A0A0;">iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc. ValetFix is an independent service company and is in no way affiliated with Apple Inc.</div>
+          </div>
+        </div>
+    </footer>
     <script type="text/javascript">
     $('#clock').countdown('2020/10/10', function(event) {
       var $this = $(this).html(event.strftime(''
